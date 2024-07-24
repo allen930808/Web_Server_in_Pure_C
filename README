@@ -1,11 +1,32 @@
 # Project: Web_Server_in_Pure_C
 
-## I just wanna write some code during vacation.
-## So I just google C project recommendation, and a Youtube video pops out,
-## "I made a web server In C like a true sigma"
-## And I thought it'd cool and impressive if I build one on my own and I also want learn some internet stuff.
+## Introduction
+I want to work on a coding project during my vacation. After researching C project recommendations, I came across a YouTube video titled, "I made a web server in C like a true sigma." I found it intriguing and impressive, so I decided to build a web server in C on my own. This project will also allow me to learn more about internet technologies.
 
+## Progress Log
 
-## 7/25
-### I did some research, gathered information from the internet and chargpt. I need to go through tutorials and some books.
-### Hope this will work out.
+### 7/25
+- **Research and Planning**
+  - Conducted initial research on web server development in C.
+  - Gathered information from various sources, including the internet and ChatGPT.
+  - Identified the need to go through relevant tutorials and books to understand the concepts and implementation better.
+  - Set a goal to work on this project and hope it will be successful.
+
+## Next Steps
+1. **Study and Tutorials**
+   - Explore tutorials on building web servers in C.
+   - Read books and resources on networking and HTTP protocols.
+
+2. **Project Development**
+   - Set up the development environment on macOS.
+   - Begin implementing the basic features of the web server.
+   - Gradually add more advanced features.
+
+3. **Testing and Documentation**
+   - Test the web server thoroughly.
+   - Document the development process and code.
+
+## Goals
+- Build a functional web server in C.
+- Gain hands-on experience with internet protocols and server development.
+- Create a project that is both impressive and educational.
