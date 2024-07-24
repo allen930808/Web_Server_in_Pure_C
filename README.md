@@ -5,7 +5,7 @@ I want to work on a coding project during my vacation. After researching C proje
 
 ## Progress Log
 
-### 7/25
+### 7/24
 - **Research and Planning**
   - Conducted initial research on web server development in C.
   - Gathered information from various sources, including the internet and ChatGPT.
