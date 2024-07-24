@@ -3,4 +3,4 @@ project(Web_Server_in_Pure_C C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Web_Server_in_Pure_C main.c)
+add_executable(Web_Server_in_Pure_C server.c)
