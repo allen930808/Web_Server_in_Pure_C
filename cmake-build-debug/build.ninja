@@ -49,11 +49,17 @@ cmake_ninja_workdir = /Users/allen/CLionProjects/Web_Server_in_Pure_C/cmake-buil
 
 build cmake_object_order_depends_target_Web_Server_in_Pure_C: phony || CMakeFiles/Web_Server_in_Pure_C.dir
 
-build CMakeFiles/Web_Server_in_Pure_C.dir/server.c.o: C_COMPILER__Web_Server_in_Pure_C_unscanned_Debug /Users/allen/CLionProjects/Web_Server_in_Pure_C/server.c || cmake_object_order_depends_target_Web_Server_in_Pure_C
-  DEP_FILE = CMakeFiles/Web_Server_in_Pure_C.dir/server.c.o.d
+build CMakeFiles/Web_Server_in_Pure_C.dir/src/server.c.o: C_COMPILER__Web_Server_in_Pure_C_unscanned_Debug /Users/allen/CLionProjects/Web_Server_in_Pure_C/src/server.c || cmake_object_order_depends_target_Web_Server_in_Pure_C
+  DEP_FILE = CMakeFiles/Web_Server_in_Pure_C.dir/src/server.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Web_Server_in_Pure_C.dir
-  OBJECT_FILE_DIR = CMakeFiles/Web_Server_in_Pure_C.dir
+  OBJECT_FILE_DIR = CMakeFiles/Web_Server_in_Pure_C.dir/src
+
+build CMakeFiles/Web_Server_in_Pure_C.dir/src/main.c.o: C_COMPILER__Web_Server_in_Pure_C_unscanned_Debug /Users/allen/CLionProjects/Web_Server_in_Pure_C/src/main.c || cmake_object_order_depends_target_Web_Server_in_Pure_C
+  DEP_FILE = CMakeFiles/Web_Server_in_Pure_C.dir/src/main.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Web_Server_in_Pure_C.dir
+  OBJECT_FILE_DIR = CMakeFiles/Web_Server_in_Pure_C.dir/src
 
 
 # =============================================================================
@@ -63,7 +69,7 @@ build CMakeFiles/Web_Server_in_Pure_C.dir/server.c.o: C_COMPILER__Web_Server_in_
 #############################################
 # Link the executable Web_Server_in_Pure_C
 
-build Web_Server_in_Pure_C: C_EXECUTABLE_LINKER__Web_Server_in_Pure_C_Debug CMakeFiles/Web_Server_in_Pure_C.dir/server.c.o
+build Web_Server_in_Pure_C: C_EXECUTABLE_LINKER__Web_Server_in_Pure_C_Debug CMakeFiles/Web_Server_in_Pure_C.dir/src/server.c.o CMakeFiles/Web_Server_in_Pure_C.dir/src/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/Web_Server_in_Pure_C.dir
   POST_BUILD = :

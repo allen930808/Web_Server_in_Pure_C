@@ -11,6 +11,10 @@ I want to work on a coding project during my vacation. After researching C proje
   - Gathered information from various sources, including the internet and ChatGPT.
   - Identified the need to go through relevant tutorials and books to understand the concepts and implementation better.
   - Set a goal to work on this project and hope it will be successful.
+### 7/25
+- **Binge Reading**
+  - Beej's Guide to Network Programming.
+  - TCP/IP and User Datagram protocol.
 
 ## Next Steps
 1. **Study and Tutorials**
