@@ -1,7 +1,7 @@
 # Project: Web_Server_in_Pure_C
 
 ## Introduction
-I want to work on a coding project during my vacation. After researching C project recommendations, I came across a YouTube video titled, "I made a web server in C like a true sigma." I found it intriguing and impressive, so I decided to build a web server in C on my own. This project will also allow me to learn more about internet technologies.
+I want to work on a coding project during summer vacation. After researching some C project recommendations, I came across a YouTube video titled, "I made a web server in C like a true sigma." I found it intriguing and impressive, so I decided to build a web server in C on my own. This project will also allow me to learn more about internet technologies.
 
 ## Progress Log
 
