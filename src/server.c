@@ -4,17 +4,16 @@ int create_socket(void) {
     if (socket_fd < 0) {
         perror("Fail to create a socket.");
     }
-    const struct sockaddr_in addr = {
+
+    struct sockaddr_in addr = {
         .sin_len = 0,
         .sin_family = PF_INET,
-        .sin_addr.s_addr = inet_addr(serverIP),
+        .sin_addr.s_addr = inet_addr(SERVERIP),
         .sin_port = htons(SERVER_PORT)
     };
 
 
+
     close(socket_fd);
-
-
-
     return 0;
 }

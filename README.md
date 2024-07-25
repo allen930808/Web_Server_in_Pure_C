@@ -5,6 +5,8 @@ I want to work on a coding project during my vacation. After researching C proje
 
 ## Progress Log
 
+---
+
 ### 7/24
 - **Research and Planning**
   - Conducted initial research on web server development in C.
@@ -13,8 +15,10 @@ I want to work on a coding project during my vacation. After researching C proje
   - Set a goal to work on this project and hope it will be successful.
 ### 7/25
 - **Binge Reading**
-  - Beej's Guide to Network Programming.
-  - TCP/IP and UDP documents.
+  - Beej's Guide to Network Programming Chapter 1-3.
+  - Skimmed through TCP, IP and UDP documents.
+
+---
 
 ## Next Steps
 1. **Study and Tutorials**

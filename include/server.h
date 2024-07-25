@@ -20,5 +20,5 @@
 #include <sys/uio.h>
 #include <arpa/inet.h>
 #define SERVER_PORT 8080
-#define SERVERIP
+#define SERVERIP 0 //temporary
 #endif //SERVER_H
