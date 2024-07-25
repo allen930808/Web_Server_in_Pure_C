@@ -1,23 +1,20 @@
-
 #include "../include/server.h"
-void main(void) {
-    int s = socket(PF_INET, SOCK_STREAM, 0);
-    struct sockaddr_in addr = {
-        0,
-        AF_INET,
-        0x901f
+int create_socket(void) {
+    const int socket_fd = socket(PF_INET, SOCK_STREAM, 0);
+    if (socket_fd < 0) {
+        perror("Fail to create a socket.");
+    }
+    const struct sockaddr_in addr = {
+        .sin_len = 0,
+        .sin_family = PF_INET,
+        .sin_addr.s_addr = inet_addr(serverIP),
+        .sin_port = htons(SERVER_PORT)
     };
-    bind(s, &addr, sizeof(addr));
 
-    listen(s, 10);
 
-    int clinet_fd = accept(s, 0, 0);
-    char buffer[256] = {0};
-    recv(clinet_fd, buffer, 256, 0);
-    char* f = buffer + 5;
-    *strchr(f,' ') = 0;
-    int opened_fd = open(f, O_RDONLY);
-    sendfile(clinet_fd, opened_fd, 0, 256);
-    close(opened_fd);
-    close(clinet_fd);
+    close(socket_fd);
+
+
+
+    return 0;
 }

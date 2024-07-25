@@ -18,4 +18,7 @@
 #include <sys/file.h>
 #include <fcntl.h>
 #include <sys/uio.h>
+#include <arpa/inet.h>
+#define SERVER_PORT 8080
+#define SERVERIP
 #endif //SERVER_H

@@ -14,7 +14,7 @@ I want to work on a coding project during my vacation. After researching C proje
 ### 7/25
 - **Binge Reading**
   - Beej's Guide to Network Programming.
-  - TCP/IP and User Datagram protocol.
+  - TCP/IP and UDP documents.
 
 ## Next Steps
 1. **Study and Tutorials**

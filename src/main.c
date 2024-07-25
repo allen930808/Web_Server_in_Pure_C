@@ -3,6 +3,5 @@
 //
 
 #include <stdio.h>
-#include "server.c"
 
 
