@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Web_Server_in_Pure_C src/server.c
         src/main.c
-        include/server.h)
+        include/server.h
+        src/client.c
+)

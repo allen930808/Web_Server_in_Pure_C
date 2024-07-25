@@ -1,7 +1,7 @@
 # Project: Web_Server_in_Pure_C
 
 ## Introduction
-I want to work on a coding project during summer vacation. After researching some C project recommendations, I came across a YouTube video titled, "I made a web server in C like a true sigma." I found it intriguing and impressive, so I decided to build a web server in C on my own. This project will also allow me to learn more about internet technologies.
+I just wanna do a coding project during summer vacation. After going through some C project recommendations, there was a YouTube video titled, "I made a web server in C like a true sigma." I found it intriguing and impressive, so I decided to build a web server in C on my own. This project will also allow me to learn more about internet technologies.
 
 ## Progress Log
 
@@ -15,7 +15,7 @@ I want to work on a coding project during summer vacation. After researching som
   - Set a goal to work on this project and hope it will be successful.
 ### 7/25
 - **Binge Reading**
-  - Beej's Guide to Network Programming Chapter 1-3.
+  - Beej's Guide to Network Programming Chapter 1-4.
   - Skimmed through TCP, IP and UDP documents.
 
 ---

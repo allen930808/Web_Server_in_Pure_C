@@ -20,5 +20,7 @@
 #include <sys/uio.h>
 #include <arpa/inet.h>
 #define SERVER_PORT 8080
-#define SERVERIP 0 //temporary
+#define SERVERIP "127.0.0.1" //temporary
+#define MAXLINE 2056
+int create_socket(void);
 #endif //SERVER_H
