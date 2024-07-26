@@ -1,0 +1,4 @@
+/Users/allen/CLionProjects/Web_Server_in_Pure_C/build/CMakeFiles/Web_Server_in_Pure_C.dir
+/Users/allen/CLionProjects/Web_Server_in_Pure_C/build/CMakeFiles/showip.dir
+/Users/allen/CLionProjects/Web_Server_in_Pure_C/build/CMakeFiles/edit_cache.dir
+/Users/allen/CLionProjects/Web_Server_in_Pure_C/build/CMakeFiles/rebuild_cache.dir

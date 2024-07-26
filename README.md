@@ -17,7 +17,11 @@ I just wanna do a coding project during summer vacation. After going through som
 - **Binge Reading**
   - Beej's Guide to Network Programming Chapter 1-4.
   - Skimmed through TCP, IP and UDP documents.
-
+### 7/26
+- **Trying to Build Something**
+  - Beej's Guide to Network Programming Chapter 4.
+    - It finally talked about actual code, learned a lot.
+    - Basically I finally understand the relationship among concepts it mentioned in previous chapters.
 ---
 
 ## Next Steps

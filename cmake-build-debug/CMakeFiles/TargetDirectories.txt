@@ -1,3 +1,0 @@
-/Users/allen/CLionProjects/Web_Server_in_Pure_C/cmake-build-debug/CMakeFiles/Web_Server_in_Pure_C.dir
-/Users/allen/CLionProjects/Web_Server_in_Pure_C/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/allen/CLionProjects/Web_Server_in_Pure_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
