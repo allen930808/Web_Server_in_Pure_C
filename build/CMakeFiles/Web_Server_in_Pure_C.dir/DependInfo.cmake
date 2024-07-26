@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/allen/CLionProjects/Web_Server_in_Pure_C/src/main.c" "CMakeFiles/Web_Server_in_Pure_C.dir/src/main.c.o" "gcc" "CMakeFiles/Web_Server_in_Pure_C.dir/src/main.c.o.d"
   "/Users/allen/CLionProjects/Web_Server_in_Pure_C/src/server.c" "CMakeFiles/Web_Server_in_Pure_C.dir/src/server.c.o" "gcc" "CMakeFiles/Web_Server_in_Pure_C.dir/src/server.c.o.d"
+  "/Users/allen/CLionProjects/Web_Server_in_Pure_C/src/showip.c" "CMakeFiles/Web_Server_in_Pure_C.dir/src/showip.c.o" "gcc" "CMakeFiles/Web_Server_in_Pure_C.dir/src/showip.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

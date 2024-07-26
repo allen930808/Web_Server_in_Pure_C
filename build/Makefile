@@ -195,6 +195,7 @@ src/showip.o: src/showip.c.o
 
 # target to build an object file
 src/showip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Web_Server_in_Pure_C.dir/build.make CMakeFiles/Web_Server_in_Pure_C.dir/src/showip.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/showip.dir/build.make CMakeFiles/showip.dir/src/showip.c.o
 .PHONY : src/showip.c.o
 
@@ -203,6 +204,7 @@ src/showip.i: src/showip.c.i
 
 # target to preprocess a source file
 src/showip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Web_Server_in_Pure_C.dir/build.make CMakeFiles/Web_Server_in_Pure_C.dir/src/showip.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/showip.dir/build.make CMakeFiles/showip.dir/src/showip.c.i
 .PHONY : src/showip.c.i
 
@@ -211,6 +213,7 @@ src/showip.s: src/showip.c.s
 
 # target to generate assembly for a file
 src/showip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Web_Server_in_Pure_C.dir/build.make CMakeFiles/Web_Server_in_Pure_C.dir/src/showip.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/showip.dir/build.make CMakeFiles/showip.dir/src/showip.c.s
 .PHONY : src/showip.c.s
 

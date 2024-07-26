@@ -1,0 +1,4 @@
+build/
+CMakeFiles/
+cmake-build-debug/
+*.dSYM/
