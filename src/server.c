@@ -12,7 +12,6 @@ int main(void) {
         exit(-1);
     }
 
-
     freeaddrinfo(serverinfo);
     return 0;
 }
