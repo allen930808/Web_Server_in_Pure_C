@@ -1,27 +1,16 @@
 #include "../include/server.h"
-int create_socket(void) {
-    int socket_fd;
-
-    if ( ( socket_fd = socket(PF_INET, SOCK_STREAM, 0) ) < 0) {
-        perror("Fail to create a socket.");
-        return -1;
-    }
-
-    struct sockaddr_in addr = {
-        .sin_len = 0,
-        .sin_family = PF_INET,
-        .sin_addr.s_addr = inet_addr(SERVERIP),
-        .sin_port = htons(SERVER_PORT)
-    };
-
-    close(socket_fd);
-    return 0;
-}
-
-int main() {
-    if(create_socket() < 0) {
+int main(void) {
+    int status;
+    struct addrinfo hint;
+    struct addrinfo *serverinfo;
+    memset(&hint, 0, sizeof(hint));
+    hint.ai_family = AF_UNSPEC;
+    hint.ai_socktype = SOCK_STREAM;
+    hint.ai_flags = AI_PASSIVE;
+    if((status = getaddrinfo(NULL, SERVER_PORT, &hint, &serverinfo)) != 0) {
+        perror("getaddrinfo error");
         exit(-1);
     }
-
+    freeaddrinfo(serverinfo);
+    return 0;
 }
-
