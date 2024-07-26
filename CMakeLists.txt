@@ -6,9 +6,9 @@ set(CMAKE_C_STANDARD 11)
 add_executable(Web_Server_in_Pure_C
         src/server.c
         src/main.c
-        src/showip.c
         include/server.h
 )
 
-# Separate executable for showip
-add_executable(showip src/showip.c)
+add_executable(showip
+        src/showip.c
+)

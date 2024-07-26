@@ -8,9 +8,11 @@ int main(void) {
     hint.ai_socktype = SOCK_STREAM;
     hint.ai_flags = AI_PASSIVE;
     if((status = getaddrinfo(NULL, SERVER_PORT, &hint, &serverinfo)) != 0) {
-        fprintf(stderr, "getaddrinfo error: %s\n", gai_strerror(status));
+        perror("getaddrinfo error");
         exit(-1);
     }
+
+
     freeaddrinfo(serverinfo);
     return 0;
 }

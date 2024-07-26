@@ -11,13 +11,12 @@ int main(int argc, char** argv) {
         fprintf(stderr, "usage: showip hostname\n");
         return 1;
     }
-
     char inputstr[INET6_ADDRSTRLEN];
     struct addrinfo hints, *res, *p;
     int status;
 
     memset(&hints, 0, sizeof(hints));
-    hints.ai_family = AF_UNSPEC; // Allow IPv4 or IPv6
+    hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
 
     if ((status = getaddrinfo(argv[1], NULL, &hints, &res)) != 0) {
