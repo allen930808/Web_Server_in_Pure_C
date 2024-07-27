@@ -15,6 +15,6 @@ int main(void) {
     char* msg = "hi there";
     int len = strlen(msg);
     int byte_sent;
-    byte_sent = send (new_fd, msg,len, 0 )
+    byte_sent = send (new_fd, msg,len, 0 );
 
 }
