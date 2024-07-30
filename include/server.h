@@ -22,5 +22,7 @@
 #define PORT "8080"
 #define MAXLINE 2056
 #define BACKLOG 10
-int create_socket(void);
+#define SERVERIP "127.0.0.1"
+void start_server(void);
+void start_client(const char *hostname);
 #endif //SERVER_H

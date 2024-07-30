@@ -7,6 +7,7 @@ add_executable(Web_Server_in_Pure_C
         src/server.c
         src/main.c
         include/server.h
+        src/client.c
 )
 
 add_executable(showip

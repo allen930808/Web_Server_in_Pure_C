@@ -19,7 +19,6 @@ int main(void) {
         perror("getaddrinfo");
         exit(EXIT_FAILURE);
     }
-
     // Create socket
     socketfd = socket(res->ai_family, res->ai_socktype, res->ai_protocol);
     if (socketfd == -1) {
@@ -36,7 +35,7 @@ int main(void) {
         exit(EXIT_FAILURE);
     }
 
-    freeaddrinfo(res); // Free the address information
+    freeaddrinfo(res); // Free addrinfo
 
     // Listen for connections
     if (listen(socketfd, BACKLOG) == -1) {
